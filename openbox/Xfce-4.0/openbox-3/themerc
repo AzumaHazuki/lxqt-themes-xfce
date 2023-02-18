@@ -1,0 +1,100 @@
+# Xfce-4.2 Openbox theme
+# By Azuma Hazuki (wanderinghazuki@gmail.com)
+# Created on 15 Feb. 2023
+
+# Globals
+
+*.padding.width:			0
+*.padding.height:			0
+
+*.border.color:				#aaa29a
+*.border.width:				1
+
+*.justify:				center
+*.text.color:				#000000
+
+# Window settings
+
+window.handle.width:			4
+
+window.client.padding.width:		3
+window.client.padding.height:		0
+
+window.active.label.bg:                 raised gradient splitvertical bevel2
+window.active.label.bg.color.splitTo:   #606080
+window.active.label.bg.color:           #606080
+window.active.label.bg.colorTo:         #606080
+window.active.label.bg.colorTo.splitTo: #606080
+window.active.label.text.color:		#ffffff
+window.active.label.text.font:		shadow=y:shadowtint=0:shadowoffset=1
+
+window.active.title.bg:			flat solid
+window.active.title.bg.color:		#eae7e4
+
+window.active.title.separator.color:	#eae7e4
+
+window.active.handle.bg:		flat solid
+window.active.handle.bg.color:		#eae7e4
+
+window.active.grip.bg:			flat solid
+window.active.grip.bg.color:		#eae7e4
+
+window.active.client.color:		#eae7e4
+
+window.inactive.title.bg:		flat solid
+window.inactive.title.bg.color:		#eae7e4
+
+window.inactive.label.bg:		parentrelative
+window.inactive.label.text.color:	#8e8e8a
+
+window.inactive.handle.bg:		flat solid
+window.inactive.handle.bg.color:	#eae7e4
+
+window.inactive.grip.bg:		flat solid
+window.inactive.grip.bg.color:		#eae7e4
+
+window.inactive.client.color:		#eae7e4
+
+# Window button settings
+
+window.active.button.*.bg:		flat solid
+window.active.button.*.bg.color:	#eae7e4
+window.active.button.*.image.color:	#000000
+
+window.inactive.button.*.bg:		flat solid
+window.inactive.button.*.bg.color:	#eae7e4
+window.inactive.button.*.image.color:	#7f7f79
+
+# Menu settings
+
+menu.border.width:			1
+menu.border.color:			#606080
+
+menu.title.bg:				raised gradient splitvertical
+menu.title.bg.color.splitTo:		#606080
+menu.title.bg.color:			#606080
+menu.title.bg.colorTo:			#606080
+menu.title.bg.colorTo.splitTo:		#606080
+menu.title.text.color:			#ffffff
+menu.title.text.font:			shadow=y:shadowtint=0:shadowoffset=1
+
+menu.items.bg:				flat solid
+menu.items.bg.color:			#eae7e4
+menu.items.justify:			left
+
+menu.items.active.bg:			raised gradient bevel2
+menu.items.active.bg.color:		#51517c
+menu.items.active.bg.colorTo:		#b0b0ca
+menu.items.active.text.color:		#ffffff
+
+menu.items.disabled.text.color:		#8e8e8a
+menu.items.active.disabled.text.color:	#ffffff
+
+# OSD/Switcher Settings
+
+osd.hilight.bg:				raised gradient vertical
+osd.hilight.bg.color:			#f7f7f6
+osd.hilight.bg.colorTo:			#eae7e4
+
+osd.unhilight.bg:			flat solid
+osd.unhilight.bg.color:			#edebe9
