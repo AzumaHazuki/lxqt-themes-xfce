@@ -1,0 +1,67 @@
+/* The main Leave dialog window */
+QDialog {
+	color:				#000000;
+	background:			#e4e4e0;
+
+	border:				2px solid transparent;
+	border-image:			url(assets/buttons/button.png) 2;
+}
+
+/* Caption colors */
+QLabel {
+	color:				#000000;
+	background:			transparent;
+
+	padding:			8px;
+}
+
+/* Available actions - only partially themeable as of LXQt 1.2.x */
+QAbstractItemView {
+	color:				#000000;
+	background:			#ffffff; /* This doesn't work for some reason... */
+	background-image:		url(assets/menus/bg.png); /* ...but this does! */
+
+	border:				1px solid #a3a39a;
+}
+
+/* Button settings */
+QPushButton {
+        color:                          #000000;
+        background:                     #e4e4e0;
+
+        border:                         2px solid transparent;
+        border-image:                   url(assets/buttons/button.png) 2;
+
+        padding-left:                   24px;
+        padding-right:                  24px;
+        padding-top:                    4px;
+        padding-bottom:			4px;
+
+	margin-left:			10px;
+	margin-right:			10px;
+}
+
+QToolButton {
+        color:                          #000000;
+        background:                     #e4e4e0;
+
+        border:                         2px solid transparent;
+        border-image:                   url(assets/buttons/button.png) 2;
+
+        padding-left:                   6px;
+        padding-right:                  6px;
+        padding-top:                    4px;
+        padding-bottom:			4px;
+
+	margin-left:			10px;
+	margin-right:			10px;
+}
+
+QPushButton:hover, QToolButton:hover {
+        background:                     #ccc9c5;
+        border-image:                   url(assets/buttons/hover.png) 2;}
+
+QPushButton:pressed, QToolButton:pressed {
+        background:                     #ccc9c5;
+        border-image:                   url(assets/buttons/active.png) 2;
+}

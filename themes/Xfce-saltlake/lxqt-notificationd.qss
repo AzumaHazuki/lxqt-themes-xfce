@@ -1,0 +1,38 @@
+Notification {
+	color:				#000000;
+	background:			#e4e4e0;
+
+	border:				2px solid transparent;
+	border-image:			url(assets/buttons/button.png) 2;
+}
+
+QLabel {
+	color:				#000000;
+}
+
+#closeButton {
+        color:                          #000000;
+        background:                     transparent;
+
+        border:                         2px solid transparent;
+        border-image:                   none;
+
+	qproperty-icon:			url(assets/icons/close.svg);
+	qproperty-iconSize:		16px;
+
+	padding:			2px;
+}
+
+#closeButton:hover {
+        background:                     #ccc9c5;
+        border-image:                   url(assets/buttons/button.png) 2;
+}
+
+#closeButton:pressed {
+        background:                     #ccc9c5;
+        border-image:                   url(assets/buttons/active.png) 2;
+}
+
+#appLabel {
+	font-weight:			bold;
+}
