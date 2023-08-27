@@ -1,0 +1,66 @@
+/* The main Leave dialog window */
+QDialog {
+	color:				#1f1f1f;
+	background:			#eeeee6;
+
+	border:				1px solid #b0b098;
+}
+
+/* Caption colors */
+QLabel {
+	color:				#1f1f1f;
+	background:			transparent;
+
+	padding:			8px;
+}
+
+/* Available actions - only partially themeable as of LXQt 1.2.x */
+QAbstractItemView {
+	color:				#1f1f1f;
+	background:			#fdfdfd; /* This doesn't work for some reason... */
+	background-image:		url(assets/menus/bg.png); /* ...but this does! */
+
+	border:				1px solid #b0b098;
+}
+
+/* Button settings */
+QPushButton {
+        color:                          #1f1f1f;
+        background:                     qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #fcfcfb, stop:1 #ddddcf);
+
+        border:                         2px solid transparent;
+        border-image:                   url(assets/buttons/button.png) 2;
+
+        padding-left:                   24px;
+        padding-right:                  24px;
+        padding-top:                    4px;
+        padding-bottom:			4px;
+
+	margin-left:			10px;
+	margin-right:			10px;
+}
+
+QToolButton {
+        color:                          #1f1f1f;
+        background:                     qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #fcfcfb, stop:1 #ddddcf);
+
+        border:                         2px solid transparent;
+        border-image:                   url(assets/buttons/button.png) 2;
+
+        padding-left:                   6px;
+        padding-right:                  6px;
+        padding-top:                    4px;
+        padding-bottom:			4px;
+
+	margin-left:			10px;
+	margin-right:			10px;
+}
+
+QPushButton:hover, QToolButton:hover {
+        background:                     qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #fee392, stop:1 #f7d262);
+        border-image:                   url(assets/buttons/hover.png) 2;}
+
+QPushButton:pressed, QToolButton:pressed {
+        background:                     qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #d4cfbf, stop:1 #f3f1eb);
+        border-image:                   url(assets/buttons/active.png) 2;
+}
